@@ -1,0 +1,139 @@
+header {
+  background-color: #466995;
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.4;
+  border-bottom: 1px solid #466995;
+
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.head {
+  text-align: right;
+  padding-right: 70px;
+  position: relative;
+  top: 70%;
+  letter-spacing: 1.4;
+  font-size: 18px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+}
+
+li:hover {
+  color: forestgreen;
+}
+
+.welcome {
+  text-align: center;
+  background-color: skyblue;
+  padding: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  color: forestgreen;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 { 
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.question{
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Varela Round', sans-serif;
+  color: #333;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  padding: 30px;
+}
+
+.answer:hover {
+  background-color: skyblue;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.background {
+  background-image: url(../img/oceanwater.jpeg);
+  height: 700px;
+  margin-top: 70px;
+}
+
+.background p {
+  color: black;
+  display: block;
+  font-style: italic;
+  position: relative;
+  top: 90%;
+  left: 65%;
+  padding: 10px;
+  background-color: white;
+  width: 30%;
+  margin-right: 50px;
+}
+
+.Info {
+  background-color: deepskyblue;
+  height: 250px;
+}
+
+.about {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+.contact {
+  text-align: center;
+  font-style: italic;
+}

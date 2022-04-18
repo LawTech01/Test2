@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="css/formstyle.css">
+	<style type="text/css">
+		.rectangle{
+			display: inline-block;
+			width: 200px;
+			height: 70px;
+			border: 2px solid #333;
+			background-color: lightblue;
+			color: white;
+		}
+	</style>
+
+</head>
+<body>
+	<h2 style="color: blue;">School Registration</h2>
+<form method="POST">
+	<div>
+	<fieldset class="basic">
+		<legend>Basic Info:</legend>
+	
+		<label for="fn">First Name:</label>
+		<input type="text" name="fname" id="fn" required>
+	<br><br>
+	
+		<label for="ln">Last Name:</label>
+		<input type="text" name="lname" id="ln" required>
+	
+	<br><br>
+	
+		<label for="pw">Password (8 characters Minimum):</label>
+		<input type="password" name="pword" id="pw" minlength="8" required>
+	
+	<br><br>
+	
+		Gender:
+		<label for="m">Male</label>
+		<input id="m" type="radio" name="gender" value="male">
+		<label for="f">Female</label>
+		<input id="f" type="radio" name="gender" value="female">
+	<br><br>
+</fieldset>
+	</div>
+	<div>
+<fieldset class="oth">
+	<legend>Other Info:</legend>
+	
+	<b>Select 3 Favourite Subjects:</b></b><br>
+	
+		<label for="math">Mathematics</label>
+		<input type="checkbox" name="Subjects1" id="Math"> 
+		<br>
+		<label for="eng">English Language</label>
+		<input type="checkbox" name="Subjects2" id="eng"> 
+		<br>
+		<label for="bs">Basic Science</label>
+		<input type="checkbox" name="Subjects3" id="bs">
+		<br> 
+		<label for="art">Fine Art</label>
+		<input type="checkbox" name="Subjects4" id="art"> 
+		<br>
+		<label for="ms">Music</label>
+		<input type="checkbox" name="Subjects5" id="ms"> 
+		<br>
+		<label for="hs">History Studies</label>
+		<input type="checkbox" name="Subjects6" id="hs"> 
+	
+	<br><br>
+
+		<label for="years">Years of Experience:</label>
+		<input type="number" name="years" id="years" step="1">
+
+	<br><br>
+		<label for="number">Number of Appearance</label>
+		<input id="number" type="number" name="number" min="1" max="5">
+	<br><br>
+	
+		<label for="hb">What are your hubbies:</label>
+		<select id="hb" name="hubbies">
+			<option value="football">Football</option>
+			<option value="music">Music</option>
+			<option value="internet">Internet</option>
+			<option value="dancing">Dancing</option>
+			<option value="reading">Reading</option>
+			<option value="trekking">Trekking</option>
+		</select>
+	<br><br>
+
+		<label for="food"> What are your favorite food:</label>
+		<input id="food" type="text" name="food" list="foods">
+		<datalist id="foods">
+			<option value="eba"></option>
+			<option value="rice"></option>
+			<option value="beans"></option>
+			<option value="semo"></option>
+			<option value="wheat"></option>
+			<option value="yam"></option>
+			
+		</datalist>
+	<br><br>
+		<label for="date">Birthday:</label>
+		<input type="date" name="" id="date">
+ 	<br><br>
+ 		<label for="exercise">How often do you exercise:</label>
+ 			<span>Rare</span>
+ 		<input type="range" name="exercise" id="exercise" min="0" max="5" step="1">
+ 			<span>Regularly</span>
+ 	<br><br>
+
+		<label for="ta"><b>About yourself:</b></label><br>
+		<textarea id="ta" name="user_detail" rows="10" cols="20"></textarea>
+	<br><br>
+</fieldset>
+</div>
+<div>
+
+<fieldset>
+	<legend>Miscellaneous Info</legend>
+	<label for="fc">Select Your Favorite Color</label>
+	<input type="color" id="fc" name="">
+</fieldset>
+</div>
+		<!-- Submit Button -->
+		<input type="Button" value="Register">
+
+	<hr>
+	<div>
+		<fieldset class="login">
+			<legend></legend>
+ 		<p><h2>Sign In</h2></p>
+ 		<p>Create an account:</p>
+ 		 <label for="username"><b>Username:</b></label> <br>
+ 		 <input id="username" type="text" name="username" minlength="8" maxlength="15" required pattern="[a-zA-z0-9]+">
+ 		 <br><br>
+ 		 <label for="pw"><b>Password:</b></label> <br>
+ 		 <input id="pw" type="text" name="pw" minlength="8" maxlength="8" required>
+ 		 <br><br>
+ 		 <input type="Submit" name="Submit"> &copy;
+
+ 		</fieldset>
+
+  </div>
+</form>
+
+</body>
+</html>

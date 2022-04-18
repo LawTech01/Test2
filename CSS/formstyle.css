@@ -1,0 +1,17 @@
+fieldset{
+	width: 50%;
+}
+body{
+	background-color: greenyellow;
+}
+
+.login{
+	margin-left: auto;
+}
+/** {*/
+  border: 1px solid red;
+}
+
+.IMG {
+	background-image: url("../IMG/ocean-water-beach-The-Bahamas-Grand-Bahama.jpeg");
+}
